@@ -4,8 +4,6 @@ int main()
 {
     int i,j,k,n; 
     float a[10][10],b,x[10];
-
-    //printf("\ndigite o tamanho da matriz: ");
     
     cout << "\ndigite o tamanho da matriz: ";
     cin >> n;
