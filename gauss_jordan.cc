@@ -8,7 +8,7 @@ int main()
     //printf("\ndigite o tamanho da matriz: ");
     
     cout << "\ndigite o tamanho da matriz: ";
-    scanf("%d",&n);
+    cin >> n;
     //
     for(i=1; i<=n; i++)
     {
