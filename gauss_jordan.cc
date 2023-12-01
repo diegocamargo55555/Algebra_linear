@@ -5,7 +5,7 @@ int main()
     int i,j,k,n; 
     float a[10][10],b,x[10];
     
-    cout << "\ndigite o tamanho da matriz: ";
+    cout << "digite o tamanho da matriz: ";
     cin >> n;
     //
     for(i=1; i<=n; i++)
@@ -30,7 +30,7 @@ int main()
             }
         }
     }
-    cout<<"\nA solução é:\n";
+    cout<<endl <<"A solução é:" << endl;;
     for(i=1; i<=n; i++) 
     {
         x[i]=a[i][n+1]/a[i][i];
